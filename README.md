@@ -37,3 +37,19 @@ import {TextInput} from "react-native"
 ```
 
 - TextInput is similar to input in html, also has different props
+
+```
+<View style={styles.container}>
+    <ScrollView style={{ flex: 1 }}>
+    {people.map((p, index) => (
+        <View key={index} style={styles.listItem}>
+        <Text
+            style={styles.text}
+        >{`sala ${index} - ${p.name} - ${p.age}`}</Text>
+        </View>
+    ))}
+    </ScrollView>
+</View>
+```
+
+- A ScrollView in React Native allows you to display and scroll through content that exceeds the screen size vertically
