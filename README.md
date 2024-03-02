@@ -9,3 +9,31 @@ import {View} from "react-native"
 ```
 
 - View is Like a div In Html, is like a container of other components
+
+```
+import {Button} from "react-native"
+<Button
+    color={"red"}
+    backgroundColor={"black"}
+    title="Increment"
+    onPress={() => {
+        setCount((prev) => prev + 1);
+        Alert.alert("pressed");
+    }}
+/>
+```
+
+- Button is quite similar to button in html, but has different props
+- onPress: function that will be called when the button is clicked
+
+```
+import {TextInput} from "react-native"
+<TextInput
+        value={name}
+        placeholder={"Please enter your name"}
+        onChangeText={(val) => setName(val)}
+        style={styles.input}
+      />
+```
+
+- TextInput is similar to input in html, also has different props
