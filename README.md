@@ -8,4 +8,4 @@ React Native is a framework for creating mobile apps using JavaScript and React.
 import {View} from "react-native"
 ```
 
-- View is Like a div In Html, is like a container of other components
+- View is Like a div In Html, it's like a container of other components
